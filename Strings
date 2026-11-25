@@ -1,0 +1,19 @@
+
+# Create a character string
+message <- "Hello"
+
+# Concatenate two strings
+message <- paste(message, "World")
+
+# Convert a string to an integer
+text <- "2026"
+year <- as.integer(text)
+
+# Convert an integer to a string
+yearString <- as.character(year)
+
+# Concatenate the strings
+message <- paste(message, yearString)
+
+# Display the result
+print(message)
