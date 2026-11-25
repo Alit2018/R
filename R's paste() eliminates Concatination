@@ -1,0 +1,14 @@
+
+message <- "Hello"
+
+message <- paste0(message, "World")
+
+text <- "2026"
+
+year <- as.integer(text)
+
+yearString <- as.character(year)
+
+message <- paste0(message, yearString)
+
+cat(message)
